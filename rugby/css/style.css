@@ -46,7 +46,6 @@ div.Seader {
 
 @media (orientation: portrait) {
 	div.Seader {
-        height: 70vh;
         color: white;
         justify-content: space-evenly;
         align-items: center;
@@ -102,6 +101,7 @@ div.Foreground {
 	div.Foreground {
 		width: 80vw;
 		height: 45vw;
+		margin: 1em 0;
 	}
 }
 
@@ -138,7 +138,6 @@ div.GameAvailability {
 @media (orientation: portrait) {
 	div.GameAvailability {
 		width: 90%;
-		height: 30vh;
 	}
 }
 
@@ -154,7 +153,8 @@ div.Platforms {
     position: relative;
     width: 100%;
     display: flex;
-    align-items: cent
+    align-items: cent;
+	margin-bottom: 3em;
 }
 
 div.SteamIcon {
