@@ -126,7 +126,6 @@ div.GameAvailability {
 	
 	flex-wrap: nowrap;
 	flex-direction: column;
-	justify-content: space-between;
 }
 
 @media (orientation: landscape) {
@@ -148,13 +147,14 @@ div.GameTitle {
 	width: 100%;
 	font-size: 2.5em;
 	font-weight: bold;
+	margin-bottom:1em;
 }
 
 div.Platforms {
-	position: relative;
-	width: 100%;
-	display: flex;
-    align-items: center;
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: cent
 }
 
 div.SteamIcon {
@@ -174,8 +174,25 @@ div.PlatformName {
 
 div.GameDescription {
 	position: relative;
-	width: 100%;
+	p
+	color:white;
+	
+	color:#888;
 }
+
+@media (orientation: landscape) {
+	div.GameDescription  {
+		padding: 1em 5em;
+		font-size:1.5em;
+	}
+}
+
+@media (orientation: portrait) {
+	div.GameDescription  {
+		padding: 2em;
+	}
+}
+
 
 div.Trailer {
     position: relative;
@@ -186,6 +203,7 @@ div.Trailer {
     padding: 2em 0;
     background-color: #06242d;
     border-top: 1em solid #073847;
+	flex-direction:column;
 }
 
 
